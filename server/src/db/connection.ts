@@ -1,8 +1,10 @@
 import postgres from 'postgres'
+import { drizzle } from 'drizzle-orm/postgres-js'
 import { env } from '../env.ts'
+import { schema } from './schema/index.ts'
 
 export const sql = postgres(env.DATABASE_URL);
-
-const result = await sql `select 'Hello World' as message`;
-
-console.log(result);
+export const db = drizzle(sql, {
+  schema: schema,
+  casing: 'snake_case',
+});
