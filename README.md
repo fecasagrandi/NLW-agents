@@ -1,4 +1,6 @@
-# ![image](https://github.com/user-attachments/assets/6a38fa28-0924-4535-ac6f-a8288262548a) NLW Agents
+# ![image](https://github.com/user-attachments/assets/6a38fa28-0924-4535-ac6f-a8288262548a) 
+
+NLW Agents
 
 Este projeto foi desenvolvido durante a NLW com o objetivo de construir uma aplicação full-stack completa do zero, inspirada no projeto Let Me Ask.
 
