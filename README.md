@@ -1,43 +1,38 @@
-# ![image](https://github.com/user-attachments/assets/6a38fa28-0924-4535-ac6f-a8288262548a) 
+# ![NLW Agents](https://github.com/user-attachments/assets/6a38fa28-0924-4535-ac6f-a8288262548a)
 
-NLW Agents
+# NLW Agents
 
-Este projeto foi desenvolvido durante a NLW com o objetivo de construir uma aplicação full-stack completa do zero, inspirada no projeto Let Me Ask.
+Este projeto foi desenvolvido durante a **Next Level Week (NLW)** com o objetivo de construir uma aplicação **full-stack completa do zero**, inspirada no projeto **Let Me Ask**.
 
-🔧 Tecnologias utilizadas
-🖥️ Back-end
-Node.js
+---
 
-Fastify – framework HTTP leve e rápido
+## 🔧 Tecnologias Utilizadas
 
-Zod – validação de dados
+### 🖥️ Back-end
 
-Biome – análise estática e formatação de código
+- **Node.js**
+- **Fastify** – framework HTTP leve e rápido
+- **Zod** – validação de dados
+- **Biome** – análise estática e formatação de código
+- **Variáveis de ambiente** (`.env`)
+- **PostgreSQL com Docker**
 
-Variáveis de ambiente (.env)
+### 💻 Front-end
 
-PostgreSQL com Docker
+- **React**
+- **Vite** – bundler moderno e rápido
+- **Tailwind CSS** – estilização utilitária
+- **shadcn/ui** – componentes UI modernos
+- **React Router DOM** – gerenciamento de rotas
+- **React Query** – gerenciamento de requisições e cache
 
-💻 Front-end
-React
+---
 
-Vite – bundler moderno e rápido
+## ✅ Objetivo
 
-Tailwind CSS – estilização utilitária
+Construir uma base sólida para uma aplicação **escalável**, com:
 
-shadcn/ui – componentes UI modernos
-
-React Router DOM – gerenciamento de rotas
-
-React Query – gerenciamento de requisições e cache
-
-✅ Objetivo
-Construir uma base sólida para uma aplicação escalável, com:
-
-API robusta e segura
-
-Interface moderna e reativa
-
-Integração eficiente entre front-end e back-end
-
-Estrutura pronta para novas funcionalidades
+- API **robusta e segura**
+- Interface **moderna e reativa**
+- Integração eficiente entre **front-end e back-end**
+- Estrutura pronta para **novas funcionalidades**
