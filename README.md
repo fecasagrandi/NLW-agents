@@ -1,38 +1,71 @@
-# ![NLW Agents](https://github.com/user-attachments/assets/6a38fa28-0924-4535-ac6f-a8288262548a)
-
 # NLW Agents
 
-Este projeto foi desenvolvido durante a **Next Level Week (NLW)** com o objetivo de construir uma aplicação **full-stack completa do zero**, inspirada no projeto **Let Me Ask**.
+Este projeto foi desenvolvido durante o evento NLW da Rocketseat.
+
+## Tecnologias e Bibliotecas Utilizadas
+
+- **Frontend (web):**
+  - React
+  - TypeScript
+  - Vite
+  - React Router DOM
+
+- **Backend (server):**
+  - Node.js
+  - TypeScript
+  - Express
+  - Drizzle ORM
+  - SQLite
+  - Docker (para ambiente de banco de dados)
+
+## Padrões de Projeto
+- Estrutura de pastas separando frontend (`web/`) e backend (`server/`).
+- Utilização de rotas REST no backend.
+- Componentização no frontend com React.
+- Variáveis de ambiente para configuração.
+
+## Setup e Configuração
+
+### Pré-requisitos
+- Node.js (versão recomendada: 18+)
+- Docker (opcional, para rodar o banco de dados via container)
+
+### Instalação
+
+1. Clone o repositório:
+   ```sh
+   git clone <url-do-repositorio>
+   cd NLW-agents
+   ```
+
+2. Instale as dependências do frontend e backend:
+   ```sh
+   cd web
+   npm install
+   cd ../server
+   npm install
+   ```
+
+3. (Opcional) Suba o banco de dados com Docker:
+   ```sh
+   cd server
+   docker-compose up -d
+   ```
+
+4. Inicie o backend:
+   ```sh
+   cd server
+   npm run dev
+   ```
+
+5. Inicie o frontend:
+   ```sh
+   cd web
+   npm run dev
+   ```
+
+Acesse a aplicação web em `http://localhost:5173`.
 
 ---
 
-## 🔧 Tecnologias Utilizadas
-
-### 🖥️ Back-end
-
-- **Node.js**
-- **Fastify** – framework HTTP leve e rápido
-- **Zod** – validação de dados
-- **Biome** – análise estática e formatação de código
-- **Variáveis de ambiente** (`.env`)
-- **PostgreSQL com Docker**
-
-### 💻 Front-end
-
-- **React**
-- **Vite** – bundler moderno e rápido
-- **Tailwind CSS** – estilização utilitária
-- **shadcn/ui** – componentes UI modernos
-- **React Router DOM** – gerenciamento de rotas
-- **React Query** – gerenciamento de requisições e cache
-
----
-
-## ✅ Objetivo
-
-Construir uma base sólida para uma aplicação **escalável**, com:
-
-- API **robusta e segura**
-- Interface **moderna e reativa**
-- Integração eficiente entre **front-end e back-end**
-- Estrutura pronta para **novas funcionalidades**
+Projeto desenvolvido durante o NLW da Rocketseat.
