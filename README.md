@@ -34,7 +34,7 @@ Este projeto foi desenvolvido durante o evento NLW da Rocketseat.
 
 1. Clone o repositório:
    ```sh
-   git clone <url-do-repositorio>
+   git clone **<url-do-repositorio>**
    cd NLW-agents
    ```
 
