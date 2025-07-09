@@ -1,7 +1,10 @@
+import { Link } from 'react-router-dom' 
+
 export function CreateRoom() {
   return (
     <div>
-      <h1>create room</h1>
+      <div>Create Room</div>
+      <Link className="underline" to="/room">Acessar Sala</Link>
     </div>
   )
 }
