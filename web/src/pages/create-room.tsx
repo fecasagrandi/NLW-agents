@@ -19,13 +19,16 @@ export function CreateRoom() {
 
   return (
     <div>
-      <div>Create Room</div>
-
       {isLoading && <p>Carregando...</p>}
-
-      <Link className="underline" to="/room">
-      Acessar Sala
-      </Link>
+      <div className="flex flex-col gap-1">
+        {data?.map((room) => {
+          return (
+            <Link key={room.id} to={`/room/${room.id}`} className="text-blue-500 hover:underline">
+              {room.name}
+            </Link>
+          )
+        })}
+      </div>
     </div>
   )
 }

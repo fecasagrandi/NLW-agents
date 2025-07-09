@@ -1,7 +1,15 @@
+import { useParams, Navigate } from "react-router-dom"
+
+type RoomParams = {
+  roomId: string
+}
+
 export function Room() {
-  return (
-    <div>
-      <h1>Room Details</h1>
-    </div>
-  )
+  const params = useParams<RoomParams>()
+
+  if(!params.roomId) {
+    return <Navigate to="/" />
+  }
+
+  return <div>Room Details {JSON.stringify(params)}</div>
 }
