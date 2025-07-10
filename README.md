@@ -1,4 +1,5 @@
 # 🚀 NLW Agents
+<img width="686" height="386" alt="image" src="https://github.com/user-attachments/assets/1381d806-d121-408d-80d8-7fa84e708dd7" />
 
 Este projeto foi desenvolvido durante o evento **Next Level Week (NLW)** da [Rocketseat](https://rocketseat.com.br/).
 
